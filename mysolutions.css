@@ -1,0 +1,109 @@
+/* esercizio 1 */
+.ex-1-square{
+    transition: 3s;
+}
+
+.ex-1-square:hover{
+        background-color: red;
+}
+
+/* esercizio 2 */
+.ex-2-square{
+    transition: 3s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* esercizio 3 */
+.ex-3-square{
+    transition: 3s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* esercizio 4 */
+.ex-4-square{
+    transition: 3s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* esercizio 5 */
+.ex-5-square{
+    transition: 3s;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active{
+    width: 20px;
+    height: 20px;
+}
+
+/* esercizio 6 */
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+/* esercizio 7 */
+.ex-7-img{
+    transition: 3s;
+}
+
+.ex-7-img:hover{
+    filter: sepia(100%);
+}
+
+/* esercizio 8 */
+.ex-8-img{
+    transition: 3s;
+}
+
+.ex-8-img:hover{
+    filter: sepia(100%);
+    border-radius: 20px;
+}
+
+/* esercizio 9 */
+.ex-9-img{
+    transition: 3s;
+}
+
+.ex-9-img:hover{
+    filter: sepia(100%);
+    border-radius: 20px;
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+/* esercizio 10 */
+.ex-10-icon {
+    animation-name: ex-10;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ex-10 {
+    0% {transform: rotate(360deg);}
+}
+
+/* esercizio 11 */
+.ex-11-icon:hover {
+    animation-name: ex-11;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+@keyframes ex-11 {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(270deg);}
+    100% {transform: rotate(0deg);}
+}
